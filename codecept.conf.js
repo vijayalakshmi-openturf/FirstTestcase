@@ -6,7 +6,7 @@ setHeadlessWhen(process.env.HEADLESS);
 
 // enable all common plugins https://github.com/codeceptjs/configure#setcommonplugins
 setCommonPlugins();
-
+//Loading the Google search
 exports.config = {
   tests: './*_test.js',
   output: './output',
